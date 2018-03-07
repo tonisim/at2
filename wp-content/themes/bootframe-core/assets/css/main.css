@@ -1385,7 +1385,7 @@ Layout Options
   border: none;
 }
 .smartlib-navigation-header .smartlib-main-navigation-wrapper .smartlib-default-top-navbar.affix {
-  top: 0;
+  top: 100;
 }
 @media (min-width: 1200px) {
   .smartlib-navigation-header .smartlib-main-navigation-wrapper .smartlib-expand-row > div {
@@ -3081,7 +3081,7 @@ div.jp-playlist li a {
   text-decoration: none;
 }
 div.jp-playlist li a.jp-playlist-current {
-  background: url(../images/jp_playlist_li_cur.png) no-repeat scroll 200px center transparent;
+  background: url(../images/jp_playlist_li_cur.png) no-repeat scroll 60px center transparent;
 }
 div.jp-playlist li a:hover,
 div.jp-playlist li.jp-playlist-current a {

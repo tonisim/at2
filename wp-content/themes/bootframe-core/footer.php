@@ -8,27 +8,16 @@
     <!--Footer bottom - customizer-->
     <section class="smartlib-bottom-footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row khkfooter">
+                <div class="col-lg-6 ">
                     <h5>Kiirlingid</h5>
-					<a href="#">Kontakt</a>
-					<a href="https://tkhk.siseveeb.ee/veebivormid/tunniplaan">Tunniplaan</a>
+					<a href="#">Kontakt</a></br>
+					<a href="https://tkhk.siseveeb.ee/veebivormid/tunniplaan">Tunniplaan</a></br>
 					<a href="https://tkhk.siseveeb.ee">Siseveeb</a>
                 </div>
-                <div class="col-lg-6">
-				<
-                    <?php do_action('smartlib_social_links', 'footer') ?>
+                <div class="col-lg-6">				
+                   <h5>Kontakt</h5>
                 </div>
-            </div>
-
-        </div>
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-12">
-                    <p><?php smartlib_get_section_info_text('footer'); ?></p>
-                </div>
-
             </div>
         </div>
     </section>
