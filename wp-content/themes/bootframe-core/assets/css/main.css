@@ -1385,7 +1385,7 @@ Layout Options
   border: none;
 }
 .smartlib-navigation-header .smartlib-main-navigation-wrapper .smartlib-default-top-navbar.affix {
-  top: 100;
+  top: 0;
 }
 @media (min-width: 1200px) {
   .smartlib-navigation-header .smartlib-main-navigation-wrapper .smartlib-expand-row > div {
@@ -2023,9 +2023,9 @@ Team Widget*/
   background: rgb(23, 162, 184);
 }
 @media (max-width: 1200px) {
-  .smartlib-navigation-header .smartlib-default-top-navbar {
-    background: #2c3e51;
-  }
+    .smartlib-navigation-header .smartlib-default-top-navbar {
+        background: rgb(23,162,184);
+    }
 }
 .smartlib-navigation-header .smartlib-default-top-navbar .smartlib-search-navigation-area {
   padding: 0 40px 0 0;
@@ -2330,7 +2330,6 @@ Team Widget*/
 .smartlib-footer-area {
   clear: both;
   font-size: 12px;
-  border-top: 1px solid #eeeeee;
 }
 .smartlib-footer-area .smartlib-content-section {
   padding: 30px 0;
@@ -2383,10 +2382,6 @@ Team Widget*/
 }
 .smartlib-footer-sidebar .smartlib-widget .smartlib-content-with-separator {
   border-bottom-color: #374d65;
-}
-.smartlib-footer-sidebar .widget_text {
-  margin-bottom: 15px;
-  border-bottom: 1px solid #374d65;
 }
 .smartlib-footer-sidebar .widget_recent_entries ul,
 .smartlib-footer-sidebar .widget_recent_comments ul,
