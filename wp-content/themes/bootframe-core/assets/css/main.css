@@ -160,7 +160,7 @@ LAYOUT
 }
 /*input type=submit*/
 input[type="submit"] {
-  text-transform: none;
+  text-transform: none;    /* line-height: 1.8; */
   position: relative;
   background: #1bb999;
   padding: 6px 12px;
@@ -2331,9 +2331,7 @@ Team Widget*/
   clear: both;
   font-size: 12px;
 }
-.smartlib-footer-area .smartlib-content-section {
-  padding: 30px 0;
-}
+
     .smartlib-footer-area .smartlib-dark-section {
         background-color: rgb(23, 162, 184);
     }
