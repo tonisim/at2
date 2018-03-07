@@ -8,18 +8,28 @@
     <!--Footer bottom - customizer-->
     <section class="smartlib-bottom-footer">
         <div class="container">
-            <div class="row khkfooter">
-                <div class="col-lg-6 ">
-                    <h5>Kiirlingid</h5>
-					<a href="#">Kontakt</a></br>
-					<a href="https://tkhk.siseveeb.ee/veebivormid/tunniplaan">Tunniplaan</a></br>
-					<a href="https://tkhk.siseveeb.ee">Siseveeb</a>
+            <div class="row">
+
+                <div class="col-sm-6 smartlib-no-padding-left">
+                    <?php
+
+                    $one_page_check = smartlib_if_is_one_page();
+                    if (has_nav_menu('footer_pages') && !$one_page_check) {
+
+                        wp_nav_menu(
+                            array('theme_location' => 'footer_pages',
+                                'menu_class' => 'smartlib-menu smartlib-horizontal-menu', 'depth' => 1));
+
+                    }
+
+                    ?>
                 </div>
-                <div class="col-lg-6">				
-                   <h5>Kontakt</h5>
+                <div class="col-lg-6">
+                    <?php do_action('smartlib_social_links', 'footer') ?>
                 </div>
             </div>
-        </div>
+
+        </div>     
     </section>
     <!--END Footer bottom - customizer-->
 </footer>
