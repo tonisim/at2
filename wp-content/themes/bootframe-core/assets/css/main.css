@@ -3485,6 +3485,7 @@ blockquote footer {
 }
 .smartlib-page-image-header.smartlib-dark-section.smartlib-dark-section .breadcrumb {
   color: #1bb999;
+	
 }
 .smartlib-page-image-header.smartlib-dark-section.smartlib-dark-section .breadcrumb li {
   color: #d9d9d9;
@@ -4050,7 +4051,6 @@ Home Page Contact
   height: 39px;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.8;
   color: #555555;
   background-color: #fff;
   background-image: none;
