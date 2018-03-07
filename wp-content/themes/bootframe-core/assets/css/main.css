@@ -3081,7 +3081,7 @@ div.jp-playlist li a {
   text-decoration: none;
 }
 div.jp-playlist li a.jp-playlist-current {
-  background: url(../images/jp_playlist_li_cur.png) no-repeat scroll 10px center transparent;
+  background: url(../images/jp_playlist_li_cur.png) no-repeat scroll 200px center transparent;
 }
 div.jp-playlist li a:hover,
 div.jp-playlist li.jp-playlist-current a {
