@@ -1564,7 +1564,7 @@ Layout Options
   padding: 0 15px;
 }
 .widget_nav_menu li:hover {
-  background: #fbfbfb;
+  background: rgba (23,162,184,0.7);
 }
 .widget_nav_menu li:hover:before,
 .widget_nav_menu .current-menu-item:before {
