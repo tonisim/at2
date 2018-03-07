@@ -25,11 +25,6 @@ do_action('smartlib_before_content');
 <header class="smartlib-navigation-header">
 
     <!-- Top Bar -->
-    <?php
-
-    smartlib_top_bar();
-
-    ?>
     <!-- End Top Bar -->
     <!-- Navigation -->
 
@@ -40,7 +35,7 @@ do_action('smartlib_before_content');
                     <div class="col-sm-12">
 
                         <div class="navbar-header">
-                            <?php smartlib_logo('/assets/img/logo-1.png'); ?>
+                            <?php smartlib_logo('/assets/img/iktlogo.png'); ?>
                             <button type="button" class="navbar-toggle" data-toggle="collapse"
                                     data-target="#bs-example-navbar-collapse-1">
                                 <span class="sr-only"><?php _e('Toggle navigation', 'bootframe-core'); ?></span>
