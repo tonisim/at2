@@ -183,7 +183,7 @@
 
             scrollToElement: function(){
 
-                $('body').scrollspy({ target: '#smartlib-spy-scroll-nav', offset: 100 });
+                $('body').scrollspy({ target: '#smartlib-spy-scroll-nav', offset: 50 });
 
                 $("#smartlib-one-page-menu a").on('click', function (){
 
