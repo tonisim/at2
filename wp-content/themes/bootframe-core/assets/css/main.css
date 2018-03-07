@@ -1564,7 +1564,7 @@ Layout Options
   padding: 0 15px;
 }
 .widget_nav_menu li:hover {
-  background: rgba(23, 162, 184, 0.7);
+  background: #fbfbfb;
 }
 .widget_nav_menu li:hover:before,
 .widget_nav_menu .current-menu-item:before {
@@ -2020,7 +2020,7 @@ Team Widget*/
   margin: 10px 0 0 0;
 }
 .smartlib-navigation-header .smartlib-default-top-navbar {
-  background: rgba(44, 62, 81, 0.91);
+  background: rgb(23, 162, 184);
 }
 @media (max-width: 1200px) {
   .smartlib-navigation-header .smartlib-default-top-navbar {
@@ -2169,7 +2169,7 @@ Team Widget*/
   }
 }
 .smartlib-navigation-header .smartlib-default-top-navbar.affix {
-  background: #2c3e51;
+  background: rgb(23,162,184);
 }
 .smartlib-navigation-header .smartlib-default-top-navbar.affix .navbar-header .smartlib-logo-header {
   max-height: 50px;
@@ -2269,7 +2269,7 @@ Team Widget*/
 .smartlib-default-top-navbar .navbar-nav li.current-menu-item > a,
 .smartlib-default-top-navbar .navbar-nav li.current-menu-ancestor > a,
 .smartlib-default-top-navbar .navbar-nav .active > a {
-  background: #2c3e51;
+  background: rgb(21,137,155);
   color: #fff;
 }
 .smartlib-default-top-navbar .navbar-nav > li.dropdown.open > a:before,
@@ -2405,7 +2405,7 @@ Team Widget*/
 /* FOOTER BOTTOM
 ================================================== */
 .smartlib-bottom-footer {
-  background-color: #fff;
+  background-color: rgb(23,162,184) ;
   padding: 30px 0;
 }
 .smartlib-bottom-footer .smartlib-menu {
@@ -3464,7 +3464,7 @@ blockquote footer {
 .smartlib-page-image-header {
   overflow: hidden;
   background-size: cover;
-  padding-top: 123px;
+  padding-top: 15%;
   margin-bottom: 60px;
   background-color: #dddddd;
 }
