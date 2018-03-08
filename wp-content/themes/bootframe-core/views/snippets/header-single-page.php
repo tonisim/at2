@@ -26,9 +26,9 @@ if(strlen($header_bg)>0){
                             </h1>
                         </div>
                         <div class="col-sm-4 text-right">
-                            <div class="smartlib-breadcrumb">
+                            <!--div class="smartlib-breadcrumb">
                                 <?php do_action('smartlib_breadcrumb'); ?>
-                            </div>
+                            </div-->
                         </div>
                     </div>
 
@@ -41,10 +41,10 @@ if(strlen($header_bg)>0){
     <?php
 }else{
 ?>
-<section class="smartlib-content-section container">
+<!--section class="smartlib-content-section container">
     <?php do_action('smartlib_breadcrumb'); ?>
 
-</section>
+</section-->
 <?php
 }
 ?>
