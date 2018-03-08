@@ -3462,7 +3462,7 @@ blockquote footer {
 }
 @media (min-width: 1200px) {
   .smartlib-page-image-header {
-    min-height: 280px;
+    min-height: 200px;
   }
 }
 .smartlib-page-image-header .breadcrumb {
