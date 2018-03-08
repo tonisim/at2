@@ -3456,7 +3456,7 @@ blockquote footer {
 .smartlib-page-image-header {
   overflow: hidden;
   background-size: cover;
-  padding-top: 15%;
+  padding-top: 100px;
   margin-bottom: 60px;
   background-color: #dddddd;
 }
