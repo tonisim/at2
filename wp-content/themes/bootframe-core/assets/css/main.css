@@ -1350,7 +1350,7 @@ Layout Options
 }
 .smartlib-navigation-header .smartlib-logo-header {
   margin: 0;
-  height: 100px;
+  height: 75px;
 }
 .smartlib-navigation-header .smartlib-logo-header .smartlib-image-logo-link img {
   max-width: 100%;
@@ -3999,16 +3999,16 @@ Home Page Slider
   font-size: 20px;
 }
 .smartlib-body-has-topbar .smartlib-main-slider {
-  padding-top: 48px;
+  padding-top: 25px;
 }
 @media (max-width: 1200px) {
   .smartlib-body-has-topbar .smartlib-main-slider {
-    padding-top: 125px;
+    padding-top: 50px;
   }
 }
 @media (max-width: 590px) {
   .smartlib-body-has-topbar .smartlib-main-slider {
-    padding-top: 115px;
+    padding-top: 75px;
   }
 }
 @media (max-width: 480px) {
@@ -4510,4 +4510,8 @@ div.wpcf7-mail-sent-ok {
 ================================================== */
 .smartlib-sangar-sider-area .sangar-slideshow-container div.sangar-control-panel {
   background: none;
+}
+.footerlist {
+    list-style-type: none;
+    padding: 0;
 }
